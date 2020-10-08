@@ -1,17 +1,17 @@
 {
-  "name": "evolutioncms/main",
+  "name": "evolutioncms/example",
   "require": {
 
   },
   "autoload": {
     "psr-4": {
-      "EvolutionCMS\\Main\\": "src"
+      "EvolutionCMS\\Example\\": "src"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "EvolutionCMS\\Main\\MainServiceProvider"
+        "EvolutionCMS\\Example\\ExampleServiceProvider"
       ]
 
     }

@@ -18,7 +18,7 @@ $data = [
 
 switch ($action) {
     case 'main':
-        $view = View::addNamespace('Import', dirname(__FILE__) . '/../custom/packages/main/modules/roaming/views');
+        $view = View::addNamespace('Import', dirname(__FILE__) . '/../custom/packages/example/modules/roaming/views');
         $outTpl = (string) View::make('Import::main', $data);
         return $outTpl;
 }

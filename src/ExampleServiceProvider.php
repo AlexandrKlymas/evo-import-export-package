@@ -2,7 +2,7 @@
 
 use EvolutionCMS\ServiceProvider;
 
-class MainServiceProvider extends ServiceProvider
+class ExampleServiceProvider extends ServiceProvider
 {
     /**
      * Если указать пустую строку, то сниппеты и чанки будут иметь привычное нам именование
